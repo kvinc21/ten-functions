@@ -22,45 +22,37 @@ function isFalse(value){
   return value === false;
 }
 function not(value){
-  return value !== true;
-  return value !== Number;
-  return (value % 2 === 1)
-
+  return !value;
 }
 
-function addOne(){
-  return addOne(1) + 0;
+function addOne(value){
+  return Number(value) + 1;
 }
 
-function isIdentical(value) {
-  return value === true;
-  return value !== false;
-
-}
 function isEven(value) {
-  return 0 === true;
-  return 1 !== false;
-  return value
+  return (value % 2) === 0;
+  return (Number(value) % 2) === false;
+
+}
+function isIdentical(valueone, valuetwo) {
+  return valueone === valuetwo;
+}
+
+function isEqual(valueone, valuetwo){
+  return valueone == valuetwo;
+
+}
+function or(valueone,valuetwo){
+  return valueone || valuetwo;
 
 }
 
-function isEqual(value){
-  return value == true;
-  return 2 == "2";
+function and(valueone,valuetwo){
+  return valueone && valuetwo;
 
 }
-function or(value){
-  return value == true;
-
-}
-
-function and(value){
-  return value == true;
-
-}
- function concat(value){
-  return value == value
-   return value === true;
+ function concat(valueone,valuetwo){
+  return valueone.toString() + valuetwo.toString()
 
  }
 
