@@ -15,7 +15,55 @@
    * and
    * concat
    */
-   
+function isTrue(value){
+  return value === true;
+  }
+function isFalse(value){
+  return value === false;
+}
+function not(value){
+  return value !== true;
+  return value !== Number;
+  return (value % 2 === 1)
+
+}
+
+function addOne(){
+  return addOne(1) + 0;
+}
+
+function isIdentical(value) {
+  return value === true;
+  return value !== false;
+
+}
+function isEven(value) {
+  return 0 === true;
+  return 1 !== false;
+  return value
+
+}
+
+function isEqual(value){
+  return value == true;
+  return 2 == "2";
+
+}
+function or(value){
+  return value == true;
+
+}
+
+function and(value){
+  return value == true;
+
+}
+ function concat(value){
+  return value == value
+   return value === true;
+
+ }
+
 
   const randomBoolean = Boolean(Math.round(Math.random()))
   const randomNumber = Math.ceil(Math.random() * 100)
